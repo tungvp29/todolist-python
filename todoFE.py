@@ -7,7 +7,7 @@ from todoBE import *
 
 # Cấu hình trang
 st.set_page_config(
-    page_title="Todo List Manager",
+    page_title="Todo List Manager v2.0",
     page_icon="📝",
     layout="wide"
 )
@@ -208,7 +208,7 @@ def display_todo_card(todo):
 
 def main():
     """Hàm chính"""
-    st.title("📝 Todo List Manager")
+    st.title("📝 Todo List Manager v2.0")
     st.markdown("---")
     
     # Sidebar cho bộ lọc
